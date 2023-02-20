@@ -8,7 +8,7 @@ import { Product } from 'src/app/_interface/product.interface';
 })
 export class ProductService {
   
-  private baseUrl = 'http://hsbcbedu-env.eba-jjfsw8ss.us-east-1.elasticbeanstalk.com/api/products';
+  private baseUrl = 'http://hsbcbedu-env-2.eba-qjtuhktb.us-east-1.elasticbeanstalk.com/api/products';
 
   constructor(private http: HttpClient) { }
 

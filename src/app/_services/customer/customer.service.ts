@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class CustomerService {
 
-  private baseUrl = 'http://hsbcbedu-env.eba-jjfsw8ss.us-east-1.elasticbeanstalk.com/api/customers';
+  private baseUrl = 'http://hsbcbedu-env-2.eba-qjtuhktb.us-east-1.elasticbeanstalk.com/api/customers';
 
   constructor(private http: HttpClient) { }
 

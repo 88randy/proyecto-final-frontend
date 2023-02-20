@@ -21,6 +21,7 @@ export class CustomerListComponent implements OnInit {
       error => {
         console.log(error);
         this.responseStatus = error.status;
+        console.log(this.responseStatus);
       });
   }
 

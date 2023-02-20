@@ -8,7 +8,7 @@ import { PurchaseOrder } from 'src/app/_interface/purchaseOrder.interface';
 })
 export class PurchaseOrderService {
   
-  private baseUrl = 'http://hsbcbedu-env.eba-jjfsw8ss.us-east-1.elasticbeanstalk.com/api/purchase-orders';
+  private baseUrl = 'http://hsbcbedu-env-2.eba-qjtuhktb.us-east-1.elasticbeanstalk.com/api/purchase-orders';
   private httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
